@@ -57,6 +57,7 @@ cover/
 
 # Django stuff:
 *.log
+logs/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -143,6 +144,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+ann-env/
 
 # Spyder project settings
 .spyderproject
@@ -205,3 +207,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+*.csv
